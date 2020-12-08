@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
-  spec.name = 'Introspect'
+  spec.name = 'AmzdIntrospect'
   spec.version = '0.1.1'
   spec.license = { type: 'MIT' }
-  spec.homepage = 'https://github.com/siteline/SwiftUI-Introspect.git'
+  spec.homepage = 'https://github.com/Amzd/SwiftUI-Introspect.git'
   spec.authors = { 'Lois Di Qual' => 'lois@siteline.com' }
   spec.summary = 'Introspect the underlying UIKit element of a SwiftUI view.'
   spec.source = {
-    git: 'https://github.com/siteline/SwiftUI-Introspect.git',
+    git: 'https://github.com/Amzd/SwiftUI-Introspect.git',
     tag: spec.version
   }
 
