@@ -3,8 +3,14 @@ Changelog
 
 ## master
 
+## [0.1.1]
+
  - Allow `Introspect` to be imported in apps that support older platform versions.
  - Added Catalyst support in the Introspect iOS framework.
+ - Fixed `.introspectScrollView()` on iOS 14
+   [#55](https://github.com/siteline/SwiftUI-Introspect/issues/55)
+ - Fixed availability annotations on macOS
+   [#46](https://github.com/siteline/SwiftUI-Introspect/issues/46)
 
 ## [0.1.0]
 
@@ -37,6 +43,7 @@ Changelog
 
  - First release.
 
+[0.1.1]: https://github.com/timbersoftware/SwiftUI-Introspect/releases/tag/0.1.1
 [0.1.0]: https://github.com/timbersoftware/SwiftUI-Introspect/releases/tag/0.1.0
 [0.0.6]: https://github.com/timbersoftware/SwiftUI-Introspect/releases/tag/0.0.6
 [0.0.5]: https://github.com/timbersoftware/SwiftUI-Introspect/releases/tag/0.0.5
