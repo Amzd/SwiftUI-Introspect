@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Introspect",
+    name: "AmzdIntrospect",
     platforms: [
         .macOS(.v10_13),
         .iOS(.v11),
@@ -11,20 +11,20 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "Introspect",
-            targets: ["Introspect"]
+            name: "AmzdIntrospect",
+            targets: ["AmzdIntrospect"]
         )
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Introspect",
+            name: "AmzdIntrospect",
             dependencies: [],
             path: "Introspect"
         ),
         .testTarget(
             name: "IntrospectTests",
-            dependencies: ["Introspect"],
+            dependencies: ["AmzdIntrospect"],
             path: "IntrospectTests"
         )
     ]
